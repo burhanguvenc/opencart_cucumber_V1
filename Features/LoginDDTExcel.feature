@@ -1,5 +1,6 @@
 Feature: Login Data Driven with Excel
 
+@LoginDDT_Excel
   Scenario Outline: Login Data Driven Excel
     Given User Launch browser
     And opens URL "http://localhost/opencart/upload/"

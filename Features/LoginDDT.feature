@@ -1,5 +1,6 @@
 Feature: Login Data Driven
 
+@loginDDT
   Scenario Outline: Login Data Driven
     Given User Launch browser
     And opens URL "http://localhost/opencart/upload/"
@@ -11,5 +12,5 @@ Feature: Login Data Driven
 
     Examples: 
       | email                     | password |
-      | pavanol@gmail.com         | test123  |
-      | pavanoltraining@gmail.com | test@123 |
+      | slatke21@gmail.com        | Rebo@123 |
+      | slatketraining@gmail.com  | test.123 |
